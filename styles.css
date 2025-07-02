@@ -15,12 +15,12 @@
 .all-space {
   width: 100vw;
   height: 100vh;
-  background-image: url("/images/background/pexels-tirachard-kumtanom-112571-733857.jpg");
+  background-image: url("./images/background/pexels-tirachard-kumtanom-112571-733857.jpg");
   background-size: cover;
   background-position: center;
 
   border: 10px solid transparent;
-  border-image: url("/images/Wood066_1K-JPG_Color.webp") 20 stretch;
+  border-image: url("./images/Wood066_1K-JPG_Color.webp") 20 stretch;
 }
 
 #start-page {
@@ -67,7 +67,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/white-paper.webp"); /* путь к картинке */
+  background-image: url("./images/white-paper.webp"); /* путь к картинке */
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -78,7 +78,7 @@
   height: 100%;
   border-radius: 0;
   border: 3px solid #57230e00;
-  background-image: url("/clicker/imagesClicker/rooms/ChatGPT\ Image\ 2\ июл.\ 2025\ г.\,\ 02_26_09.png");
+  background-image: url("./clicker/imagesClicker/rooms/room_for_clicker.webp");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -121,7 +121,7 @@
 }
 
 .sponge-cursor {
-  cursor: url("/clicker/imagesClicker/cursors/sponge-small.webp") 16 16, auto;
+  cursor: url("./clicker/imagesClicker/cursors/sponge-small.webp") 16 16, auto;
 }
 
 .right-section {
@@ -138,7 +138,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/background/pexels-pixabay-163031.webp");
+  background-image: url("./images/background/pexels-pixabay-163031.webp");
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
