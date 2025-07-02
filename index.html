@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project One</title>
+    <script src="index.js" type="module" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="all-space">
+      <div class="greeting-box fogged-overlay" id="manager-box">
+        <div id="start-page">
+          Привет! Как тебя зовут?
+          <input type="text" id="input-userName" />
+          <button class="all-buttons" id="ready-button">Готово</button>
+        </div>
+        <div id="game-selection" class="hidden">
+          <p id="choise-game-question">Выбор игры</p>
+          <button class="all-buttons" id="clicker">Кликер</button>
+          <button class="all-buttons" id="game2">Game2</button>
+        </div>
+      </div>
+      <div class="all-zone">
+        <div class="left-section">
+          <div class="field-frame">
+            <div class="field-for-game">
+              <button id="clickerButton" class="hidden">
+                <audio
+                  id="clickSound"
+                  src="/clicker/soundsClicker/Washing.mp3"
+                  preload="auto"
+                ></audio>
+                <img
+                  src="/clicker/imagesClicker/buttons/two-black-paws.png"
+                  alt="кнопка в виде лапки"
+                  id="img-button"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="right-section">
+          <div class="manager-board">
+            <div class="counter">
+              <div>
+                <span id="click-counter"
+                  >Количество кликов:
+                  <span id="clicks">0</span>
+                </span>
+              </div>
+              <div>
+                <span id="text-speed-click"
+                  >Среднее время клика: <span id="speed-click">0</span></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

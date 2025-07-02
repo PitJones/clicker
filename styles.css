@@ -1,0 +1,149 @@
+.hidden {
+  display: none;
+}
+
+.fogged-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 5;
+}
+
+.all-space {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/background/pexels-tirachard-kumtanom-112571-733857.jpg");
+  background-size: cover;
+  background-position: center;
+
+  border: 10px solid transparent;
+  border-image: url("/images/Wood066_1K-JPG_Color.webp") 20 stretch;
+}
+
+#start-page {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+#game-selection {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.all-zone {
+  display: flex;
+  height: 100vh;
+  z-index: 3;
+}
+
+.left-section {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.field-frame {
+  width: 80%;
+  height: 80%;
+  border: 3px solid #57230e00;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/white-paper.webp"); /* путь к картинке */
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.field-for-game {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  border: 3px solid #57230e00;
+  background-image: url("/clicker/imagesClicker/rooms/ChatGPT\ Image\ 2\ июл.\ 2025\ г.\,\ 02_26_09.png");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+#clickerButton {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+#clickerButton:hover {
+  transform: scale(1.05);
+}
+
+#clickerButton #img-button {
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+}
+
+.sponge-cursor {
+  cursor: url("/clicker/imagesClicker/cursors/sponge-small.webp") 16 16, auto;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manager-board {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #57230e00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/background/pexels-pixabay-163031.webp");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.counter {
+  font-family: "Comic Sans MS", "Marker Felt", cursive;
+}
