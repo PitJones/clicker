@@ -20,7 +20,7 @@
   background-position: center;
 
   border: 10px solid transparent;
-  border-image: url("./images/Wood066_1K-JPG_Color.webp") 20 stretch;
+  border-image: url("./images/Wood066_1K-JPG_Color.webp") 20 repeat;
 }
 
 #start-page {
@@ -62,12 +62,11 @@
   width: 80%;
   height: 80%;
   border: 3px solid #57230e00;
-  border-radius: 20px;
-  padding: 15px;
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./images/white-paper.webp"); /* путь к картинке */
+  background-image: url("./images/white-paper.webp");
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
